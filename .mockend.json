@@ -27,8 +27,11 @@
     "isPublic": {
       "boolean": {}
     },
-    "Data": {"name": {
-      "string": {}
-    }}
+    "userComments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "content": {"string":{}}
   }
 }
