@@ -32,6 +32,9 @@
     }
   },
   "Comment": {
-    "content": {"string":{}}
+    "content": {"string":{}},
+    "userPost": {
+      "belongsTo": "User"
+    }
   }
 }
