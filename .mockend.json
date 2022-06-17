@@ -27,9 +27,8 @@
     "isPublic": {
       "boolean": {}
     },
-    "Data": {
-      "data": {"string":{}},
-      "data2":  {"string":{}}
-    }
+    "Data": {"name": {
+      "string": {}
+    }}
   }
 }
