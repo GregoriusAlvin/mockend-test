@@ -26,6 +26,10 @@
     },
     "isPublic": {
       "boolean": {}
+    },
+    "newData": {
+      "data": {"string":{}},
+      "data2":  {"string":{}}
     }
   }
 }
