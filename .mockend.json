@@ -1,7 +1,5 @@
 {
   "User": {
-    "id": {"id" : {}
-    },
     "name": {
       "string": {}
     },
@@ -27,7 +25,9 @@
       }
     },
     "isPublic": {
-      "boolean": {}
+      "Comment": {
+        "content": {"string":{}}
+      }
     }
   },
   "Comment": {
