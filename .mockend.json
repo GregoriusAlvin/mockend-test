@@ -1,6 +1,5 @@
 {
   "User": {
-    "id": "id",
     "name": {
       "string": {}
     },
@@ -30,7 +29,6 @@
     },
   },
   "Comment": {
-    "id": "id",
     "content": {"string":{}},
     "userPost": {
       "belongsTo": "User"
