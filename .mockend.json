@@ -1,6 +1,7 @@
 {
   "User": {
-    "id": "id",
+    "id": {"id" : {}
+    },
     "name": {
       "string": {}
     },
