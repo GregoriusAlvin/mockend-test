@@ -24,11 +24,9 @@
         "max": 100
       }
     },
-    "isPublic": {
-      "Comment": {
+    "isPublic": [{
         "content": {"string":{}}
-      }
-    }
+    }]
   },
   "Comment": {
     "content": {"string":{}},
