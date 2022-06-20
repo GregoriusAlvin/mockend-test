@@ -1,6 +1,6 @@
 {
   "User": {
-    "id": { "int": { "min": 0, "max": 1000000 } },
+    "id": "id",
     "name": {
       "string": {}
     },
@@ -28,11 +28,9 @@
     "isPublic": {
       "boolean": {}
     },
-    "userComments": {
-      "hasMany": "Comment"
-    }
   },
   "Comment": {
+    "id": "id",
     "content": {"string":{}},
     "userPost": {
       "belongsTo": "User"
